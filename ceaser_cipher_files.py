@@ -3,7 +3,6 @@ print("""
 
 Welcome to the Ceaser Cipher encryption/decryption module!
 This is done as a practice assignment from school - if you have any feedback please feel free to contact at github.com/horunk .
-
 """)
 
 def show_menu():
@@ -35,6 +34,7 @@ def encryption():
             break
         except:
             print("\nFailed to open the file specified. Try again or type 'quit' to exit.")
+            print("\nWhen using full path make sure you use double \ instead of single \ (because you need to escape symbols with \ first).")
 
 
 
@@ -104,6 +104,7 @@ def decryption():
             break
         except:
             print("\nFailed to open the file specified. Try again or type 'quit' to exit.")
+            print("\nWhen using full path make sure you use double \ instead of single \ (because you need to escape symbols with \ first).")
 
 
 
